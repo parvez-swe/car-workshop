@@ -74,3 +74,55 @@ export const cartData = [
     text: "is simply dummy text of the printing and typesetting industrying and",
   },
 ];
+
+export const questionData = [
+  {
+    id: 21,
+    text: "What is the warranty on your work?",
+    serial: "1",
+  },
+  {
+    id: 22,
+    text: "What is the warranty on your work?",
+    serial: "2",
+  },
+  {
+    id: 23,
+    text: "What is the warranty on your work?",
+    serial: "3",
+  },
+  {
+    id: 24,
+    text: "What is the warranty on your work?",
+    serial: "4",
+  },
+  {
+    id: 25,
+    text: "What is the warranty on your work?",
+    serial: "5",
+  },
+];
+
+export const reviewsData = [
+  {
+    id: 16,
+    name:"karim khan",
+    text: "simply dummy text of the printing and typesetting industrying and",
+  },
+  {
+    id: 15,
+    url: "/image/mobil.jpg",
+    text: "is simply dummy text of the printing and typesetting industrying and",
+  },
+  {
+    id: 14,
+    url: "/image/mobil.jpg",
+    text: "is simply dummy text of the printing and typesetting industrying and",
+  },
+  {
+    id: 13,
+    url: "/image/mobil.jpg",
+    text: "is simply dummy text of the printing and typesetting industrying and",
+  },
+]
+

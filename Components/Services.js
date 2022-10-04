@@ -4,7 +4,6 @@ import transImage1 from "./image/popescu-andrei-alexandru-KQjBXXPRsYM-unsplash.j
 import transImage2 from "./image/christian-buehner-Fd6osyVbtG4-unsplash.jpg";
 import transImage3 from "./image/kate-ibragimova-bEGTsOCnHro-unsplash.jpg";
 import { MdSettingsSuggest } from "react-icons/md";
-import mobile from "./image/mobil.jpg";
 import {FaRegHourglass} from "react-icons/fa"
 import {FaTrophy} from "react-icons/fa"
 
