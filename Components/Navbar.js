@@ -8,19 +8,19 @@ const Navbar = () => {
     setShowNav(!showNav);
   };
   return (
-    <div className="nav top-0 z-50 bg-white w-[100%] md:top-16 h-16 flex md:flex justify-between items-center border-b border-slate-300 py-2 px-[8%]">
+    <div className="nav sticky top-0 z-50 bg-white w-[100%] h-16 flex md:flex justify-between items-center border-b border-slate-300 py-2 px-[8%]">
       <h1 className="text-2xl font-bold uppercase">
-        Auto <span className="text-red-600">Moto</span>
+        Hamdan <span className="text-red-600">Moto</span>
       </h1>
       <div className="md:hidden">
         {showNav ? (
           <button onClick={NavHandler}>
             {" "}
-            <AiOutlineClose />
+            <AiOutlineClose className="text-2xl" />
           </button>
         ) : (
           <button onClick={NavHandler}>
-            <AiOutlineMenu />
+            <AiOutlineMenu className="text-2xl" />
           </button>
         )}
       </div>
