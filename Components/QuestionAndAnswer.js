@@ -14,8 +14,8 @@ const QuestionAndAnswer = () => {
           </p>
           <hr className=" border-red-600 border-2 mx-[45%] mt-3"></hr>
         </div>
-        <div className="grid grid-cols-2 pt-10">
-          <div className="question-box bg-white ml-[8%] rounded w-[70%]">
+        <div className="grid grid-cols-1  md:grid-cols-2 pt-10">
+          <div className="question-box justify-self-center bg-white rounded w-[70%]">
             {questionData.map((data) => {
               return (
                 <>
@@ -29,22 +29,22 @@ const QuestionAndAnswer = () => {
               );
             })}
           </div>
-          <div className="buttons text-white">
+          <div className="buttons text-white hidden md:grid">
             <div>
               <h1 className="text-lg">Get A Question?</h1>
               <p className=" mr-[40%] text-sm">
-                typesetting industry. Lorem Ipsum has been the industry's 90
+                typesetting industry. Lorem Ipsum has been the industrys 90
                 days warrenty is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
+                typesetting industry. Lorem Ipsum has been the industrys
               </p>
               <button className="bg-red-600 px-10 mt-2">Our Sevices</button>
             </div>
             <div className=" mt-5">
               <h1 className="text-lg">Get A Question?</h1>
               <p className=" mr-[40%] text-sm">
-                typesetting industry. Lorem Ipsum has been the industry's 90
+                typesetting industry. Lorem Ipsum has been the industrys 90
                 days warrenty is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
+                typesetting industry. Lorem Ipsum has been the industrys.
               </p>
               <button className="bg-red-600 px-10 mt-2">Our Sevices</button>
             </div>

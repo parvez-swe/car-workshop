@@ -2,17 +2,17 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="  grid grid-cols-2 mx-[8%] mt-20">
+    <div className="  grid grid-cols-1 md:grid-cols-2 mx-[8%] mt-20 [&>*]:justify-self-center [&>*]:m-3">
       <h1 className="text-3xl uppercase font-bold text-center self-center">
         Auto <span className="text-red-600">Moto</span>
       </h1>
-      <div>
+      <div className="text-center [&>*]:mt-3">
         <h1>Book A Trusted Mechanic</h1>
         <a
           href="tel:123-456-7890"
           className="text-[20px] text-red-600 font-bold block"
         >
-        Call Us Now: 1-800123-4568
+          Call Us Now: 1-800123-4568
         </a>
         <button className="bg-red-600 text-white px-5">Contact Now</button>
       </div>

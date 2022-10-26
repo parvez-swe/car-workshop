@@ -12,10 +12,19 @@ const Services = () => {
     <>
       <div className="px-[8%] bg-white grid grid-cols-2 md:grid-cols-4 gap-5">
         <div className="hidden md:flex -translate-y-[80px] z-20 border-[5px] border-white rounded ">
-          <Image src={transImage1} className="rounded" layout="fill" />
+          <Image
+            src={transImage1}
+            className="rounded"
+            layout="fill"
+            alt="image not found"
+          />
         </div>
         <div className="grid grid-cols-2 col-span-2 border-[5px] border-white rounded -translate-y-[80px] z-20 w-[100%]">
-          <Image src={transImage2} className="h-5 w-5 rounded " />
+          <Image
+            src={transImage2}
+            className="h-5 w-5 rounded "
+            alt="image not found"
+          />
           <div className=" flex flex-col items-center justify-center px-3 bg-white">
             <h1 className="text-xl font-bold">Request A Callback</h1>
             <p className="font-sm text-slate-700">
@@ -28,7 +37,12 @@ const Services = () => {
           </div>
         </div>
         <div className=" hidden md:flex -translate-y-[80px] z-20 border-[5px] border-white rounded ">
-          <Image src={transImage3} className="rounded" layout="fill" />
+          <Image
+            src={transImage3}
+            className="rounded"
+            layout="fill"
+            alt="image not found"
+          />
         </div>
 
         {/* <div className="col-start-1"> */}
@@ -43,7 +57,7 @@ const Services = () => {
         <h1 className="text-center text-2xl ">Car Servicing And Repairs</h1>
         <p className="text-center text-slate-600 pb-5 ">
           is simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industry's
+          Ipsum has been the industrys
         </p>
         <hr className="mx-[45%] border-b border-red-600"></hr>
       </div>
@@ -55,7 +69,7 @@ const Services = () => {
             <h1 className="font-bold">Free Diagonostic</h1>
             <p className=" text-slate-700 ">
               is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's
+              Lorem Ipsum has been the industrys
             </p>
           </div>
           <FaRegHourglass className="fill-red-600 text-3xl ml-2" />
@@ -63,7 +77,7 @@ const Services = () => {
             <h1 className="font-bold">Fast repair</h1>
             <p className=" text-slate-700 ">
               is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's
+              Lorem Ipsum has been the industrys
             </p>
           </div>
           <FaTrophy className="fill-red-600 text-3xl ml-2" />
@@ -71,7 +85,7 @@ const Services = () => {
             <h1 className="font-bold">90 days warrenty</h1>
             <p className=" text-slate-700 ">
               is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's
+              Lorem Ipsum has been the industrys
             </p>
           </div>
         </div>
@@ -80,7 +94,8 @@ const Services = () => {
             src={transImage1}
             className="grid col-start-2 col-span-1 rounded-r"
             layout="fill"
-          />{" "}
+            alt="image not found"
+          />
         </div>
       </div>
     </>

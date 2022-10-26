@@ -20,14 +20,14 @@ const Map = () => {
       </div>
       <div className={`${css.bg} relative z-10 mt-0`}>
         <div className="flex justify-between">
-          <div className="bg-white inline-block ml-5 mt-5 h-[7rem] w-[20rem] pl-5 pt-2">
+          <div className="bg-white inline-block ml-1 md:ml-5 mt-5 h-[7rem] w-[20rem] pl-2 pt-2">
             <h1 className="text-lg font-bold">7501 Parkwood Ct</h1>
             <p className="text-sm text-slate-500">
               7501 Parkwood Ct, Falls Church, VA
             </p>
             <button className="text-sm mt-5 text-slate-500">view large map</button>
           </div>
-          <div className="bg-white inline-block mr-[8%] pr-10 pl-5">
+          <div className="bg-white inline-block mr-1 md:mr-[8%] md:pr-10 pr-1 pl-5">
             <h1 className="text-3xl uppercase font-bold py-5">
               Auto <span className="text-red-600">Moto</span>
             </h1>
