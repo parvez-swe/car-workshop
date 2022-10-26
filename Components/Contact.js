@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="grid grid-cols-2 mx-[8%] mt-20">
+    <div className="  grid grid-cols-2 mx-[8%] mt-20">
       <h1 className="text-3xl uppercase font-bold text-center self-center">
         Auto <span className="text-red-600">Moto</span>
       </h1>

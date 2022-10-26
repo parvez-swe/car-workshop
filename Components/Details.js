@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Details = () => {
   return (
-    <div className="grid grid-cols-2 m-[8%]">
+    <div className="grid grid-cols-1 md:grid-cols-2 m-[8%]">
       <p>
         Free Diagonostic is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's Fast repair is simply

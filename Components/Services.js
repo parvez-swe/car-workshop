@@ -10,11 +10,11 @@ import {FaTrophy} from "react-icons/fa"
 const Services = () => {
   return (
     <>
-      <div className="px-[8%] bg-white h-[50vh] grid grid-rows-2 grid-cols-4 gap-5  ">
-        <div className=" -translate-y-[80px] z-20 border-[5px] border-white rounded ">
+      <div className="px-[8%] bg-white grid grid-cols-2 md:grid-cols-4 gap-5">
+        <div className="hidden md:flex -translate-y-[80px] z-20 border-[5px] border-white rounded ">
           <Image src={transImage1} className="rounded" layout="fill" />
         </div>
-        <div className="grid grid-cols-2 col-span-2 border-[5px] border-white rounded -translate-y-[80px] z-20 ">
+        <div className="grid grid-cols-2 col-span-2 border-[5px] border-white rounded -translate-y-[80px] z-20 w-[100%]">
           <Image src={transImage2} className="h-5 w-5 rounded " />
           <div className=" flex flex-col items-center justify-center px-3 bg-white">
             <h1 className="text-xl font-bold">Request A Callback</h1>
@@ -27,16 +27,8 @@ const Services = () => {
             </button>
           </div>
         </div>
-        <div className=" -translate-y-[80px] z-20 border-[5px] border-white rounded ">
+        <div className=" hidden md:flex -translate-y-[80px] z-20 border-[5px] border-white rounded ">
           <Image src={transImage3} className="rounded" layout="fill" />
-        </div>
-        <div className="col-start-2 col-span-2 -translate-y-5 ">
-          <h1 className="text-center text-2xl ">Car Servicing And Repairs</h1>
-          <p className="text-center text-slate-600 ">
-            is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's
-          </p>
-          <hr className="mx-[45%] border-b border-red-600"></hr>
         </div>
 
         {/* <div className="col-start-1"> */}
@@ -47,9 +39,17 @@ const Services = () => {
         <div className="col-start-3"></div>
       </div> */}
       </div>
+      <div className="col-start-2 md:col-span-2 mb-10 mx-[8%] ">
+        <h1 className="text-center text-2xl ">Car Servicing And Repairs</h1>
+        <p className="text-center text-slate-600 pb-5 ">
+          is simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's
+        </p>
+        <hr className="mx-[45%] border-b border-red-600"></hr>
+      </div>
 
-      <div className="grid grid-cols-2 mx-[8%] shadow-2xl rounded">
-        <div className="text grid grid-cols-[50px_1fr] grid-rows-3">
+      <div className="grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2 mx-[8%] shadow-2xl rounded">
+        <div className="text grid grid-cols-[50px_1fr] grid-rows-3 p-3">
           <MdSettingsSuggest className="fill-red-600 text-3xl ml-2" />
           <div>
             <h1 className="font-bold">Free Diagonostic</h1>

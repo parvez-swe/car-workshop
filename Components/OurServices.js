@@ -10,7 +10,7 @@ const OurServices = () => {
           <h1 className="text-center text-2xl mb-5">Our Services</h1>
           <p className="text-center text-slate-600 ">
             is simply dummy text of the printing and typesetting industrying and
-            typese. Lorem Ipsum has been the industry's
+            typese. Lorem Ipsum has been the industrys
           </p>
           <hr className="mx-[45%] border-b border-red-600"></hr>
         </div>
@@ -26,7 +26,7 @@ const OurServices = () => {
               className="cart text-center z-10 -translate-y-0 h-[18rem] m-2 "
             >
               <div className="cartImage z-10 -translate-y-0 h-[10rem]">
-                <Image src={cartImage} layout="fill" />
+                <Image src={cartImage} layout="fill" alt="img" />
               </div>
               <button className="px-10 -translate-y-3 z-20 text-white bg-red-600  ">
                 Break Services

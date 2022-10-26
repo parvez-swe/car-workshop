@@ -12,16 +12,20 @@ const CustomerReview = () => {
         </p>
         <hr className=" border-red-600 border-2 mx-[45%] mt-3"></hr>
       </div>
-      <div className="reviews grid grid-cols-4 mx-[8%] pt-10">
+      <div className="reviews grid grid-cols-2 md:grid-cols-4 mx-[8%] pt-10">
         {reviewsData.map((data)=>{
-        return <div className=" review w-[15rem] p-3 shadow-2xl">
-          <RiDoubleQuotesL className='fill-red-600 h-10 w-10' />
-          <p className=''>
-            We now have an FAQ list that we hope will help you answer some of
-            the more common ones.
-          </p>
-          <p className='text-red-600 font-bold'>Karim khan</p>
-        </div>})}
+        return (
+          <>
+            <div className=" review w-[15rem] p-3 shadow-2xl">
+              <RiDoubleQuotesL className="fill-red-600 h-10 w-10" />
+              <p className="">
+                We now have an FAQ list that we hope will help you answer some
+                of the more common ones.
+              </p>
+              <p className="text-red-600 font-bold">Karim khan</p>
+            </div>
+          </>
+        );})}
       </div>
     </div>
   );

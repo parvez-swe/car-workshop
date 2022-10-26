@@ -4,9 +4,9 @@ import { MdWatchLater } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 const Header = () => {
   return (
-    <div className=" flex justify-between px-[8%] border-b border-slate-300">
+    <div className="hidden  md:flex md:justify-between md:px-[8%] border-b border-slate-300 h-16">
       <div className="leftdiv flex items-center">
-        <div className="address flex mr-5">
+        <div className=" address flex mr-5">
           <FaMapMarkerAlt className="mr-2 fill-red-600" />
           <h1 className="text-[12px] ">
             ADRESSS: 7501 Parkwood CT, Fals Church, VA 22042, USA
