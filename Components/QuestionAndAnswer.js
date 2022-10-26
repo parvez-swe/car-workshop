@@ -5,7 +5,7 @@ import { questionData } from "./Data";
 const QuestionAndAnswer = () => {
   return (
     <>
-      <div className={`${css.bg} relative z-10 mt-[10rem]`}>
+      <div className={`${css.bg} relative z-10 mt-[3rem]`}>
         <div className="heding text-center text-white pt-10 z-20">
           <h1 className="text-3xl z-20">Frequently Ask question</h1>
           <p>

@@ -5,19 +5,19 @@ import Image from "next/image";
 
 const Details = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 m-[8%]">
-      <p>
+    <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-2 m-[8%]">
+      <p className='mb-16 text-center'>
         Free Diagonostic is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's Fast repair is simply
         dummy text of the printing and typesetting industry. Lorem Ipsum has
         been the industry's 90 days warrenty is simply dummy text of the
         printing and typesetting industry. Lorem Ipsum has been the industry's
       </p>
-      <div className="images relative">
-        <div className="img absolute h-[20rem] translate-x-20 -translate-y-[2rem] w-[20rem]">
+      <div className="images relative md:ml-10 flex justify-center">
+        <div className="img absolute  min-h-[10rem]  translate-x-10 md:translate-x-15 max-w-[15rem]">
           <Image className="" src={mobile} />
         </div>
-        <div className="img absolute h-[20rem] w-[20rem] translate-y-[3rem]">
+        <div className="img absolute min-h-[10rem] max-w-[15rem] md:max-w-20 translate-y-[3rem]">
           <Image className="" src={mobile1} />
         </div>
       </div>

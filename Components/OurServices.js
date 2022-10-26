@@ -17,20 +17,26 @@ const OurServices = () => {
       </div>
       {/* 2nd part */}
       {/* cartData.slice(0,4).map -----> if i need only 4 data from api */}
-      <div className="carts grid grid-cols-4 mt-10 mx-[8%]">
+      <div className="carts grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 mt-10 mx-[8%]">
         {cartData.slice(0, 8).map((data) => {
           const images = data.url;
           return (
             <div
               key={data.id}
-              className="cart text-center z-10 -translate-y-0 h-[18rem] m-2 "
+              className="cart text-center z-10 -translate-y-0 h-[18rem] min-w-[140px] m-2 "
             >
-              <div className="cartImage z-10 -translate-y-0 h-[10rem]">
-                <Image src={cartImage} layout="fill" alt="img" />
+              <div className="cartImage z-10 relative h-36  w-full">
+                <Image
+                  src={cartImage}
+                  className="z-10 "
+                  layout="fill"
+                  alt="img"
+                />
+                <button className="absolute bottom-0 left-0 w-[90%] mx-2 px-5 translate-y-3 z-30 text-white bg-red-600 ">
+                  Break Services
+                </button>
               </div>
-              <button className="px-10 -translate-y-3 z-20 text-white bg-red-600  ">
-                Break Services
-              </button>
+
               <p className="text-sm px-2 py-5 text-slate-800">{data.text}</p>
               <button className="text-sm text-red-600 font-bold border-b border-red-600">
                 Read More
