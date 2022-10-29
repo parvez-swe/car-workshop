@@ -6,12 +6,11 @@ import Atest from "../Components/Atest";
 const Home = ({ products, bannerData }) => {
   return (
     <>
-      {/* main content */}
       <Index />
-      {/* {console.log(products)} */}
-      {/* development constent */}
-      {/* mafdfEmail Design */}
+
       <div className="products">
+        Yes its right
+        
         its a product page
         <div>
           {products.map((product) => (
