@@ -9,9 +9,7 @@ const Home = ({ products, bannerData }) => {
       <Index />
 
       <div className="products">
-        Yes its right
-        
-        its a product page
+        its a product pages
         <div>
           {products.map((product) => (
             <>
