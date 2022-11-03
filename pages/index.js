@@ -8,16 +8,16 @@ const Home = ({ products, bannerData }) => {
     <>
       <Index />
 
-      <div className="products">
-        its a product pages
-        <div>
+      {/* <div className="products">
+        its a product pages a */}
+        {/* <div>
           {products.map((product) => (
             <>
               <Atest key={product._id} product={product} />
             </>
           ))}
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </>
   );
 };
